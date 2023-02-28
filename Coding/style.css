@@ -1,0 +1,126 @@
+html{
+    background-image:url('/assests/Title\ Page.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body{
+  font-family: 'Playfair Display', serif;
+    background-position: center;    
+}
+#section{
+  width: 100VH;
+  height: 100vh;
+}
+
+.logo1 img{
+    position: absolute;
+    left:30px;
+    top: 25px;
+    width: 90px;
+
+  }
+  .logo2 img{
+    position: absolute;
+    right:30px;
+    top: 20px;
+    width: 80px;
+
+  }
+.page{
+    margin-top: 200px;
+    text-decoration: none;
+    line-height: 10px;
+    color:rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    justify-content: center;
+    text-align: start;
+    top:60px;
+    left: 30px;
+}
+.title{
+  
+  font-family: 'Playfair Display', serif;
+    position:relative;line-height: 1px;
+    font-weight: 200px;
+}
+.title p{  
+  letter-spacing: 10px;        
+    font-size: 115px;
+    font-weight: 20px;
+}
+.title h2{
+  letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.navMenu {
+    position: absolute;
+    top: 90px;
+    left: 49%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .navMenu a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 450;
+    display: inline-block;
+    width: 88px;
+    background-position: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color:#a69de6;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #a69de6;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(47px);
+    transform: translateX(47px);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(240px);
+    transform: translateX(227px);
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(440px);
+    transform: translateX(420px);
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(670px);
+    transform: translateX(640px);
+    -webkit-transition: all 0.85s ease-in-out;
+    transition: all 0.75s ease-in-out;
+    opacity: 1;
+  }
